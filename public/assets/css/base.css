@@ -252,12 +252,6 @@ footer {
   margin: 2em 0 0 0;
 }
 
-strong,
-b {
-  font-weight: 300;
-  color: #666;
-}
-
 em,
 i {
   font-style: italic;
@@ -276,11 +270,6 @@ a {
   outline: 0;
 }
 
-a:hover {
-  color: #e27689;
-  border-bottom-color: rgba(255, 255, 255, 0);
-}
-
 sub {
   position: relative;
   top: 0.5em;
@@ -291,17 +280,6 @@ sup {
   position: relative;
   top: -0.5em;
   font-size: 0.8em;
-}
-
-hr {
-  border: 0;
-  border-top: solid 1px #ddd;
-}
-
-blockquote {
-  border-left: solid 0.5em #ddd;
-  padding: 1em 0 1em 2em;
-  font-style: italic;
 }
 
 p,
@@ -326,15 +304,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  background: #fff;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 19pt;
-  font-weight: 300;
-  line-height: 1.75em;
-  color: #888;
-}
-
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
@@ -346,27 +315,6 @@ body.is-preload *:after {
   -webkit-transition: none !important;
   -ms-transition: none !important;
   transition: none !important;
-}
-
-input,
-textarea,
-select {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 19pt;
-  font-weight: 300;
-  line-height: 1.75em;
-  color: #888;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 300;
-  color: #666;
-  line-height: 1.5em;
 }
 
 h1 a,
@@ -393,14 +341,6 @@ h2 {
   letter-spacing: -1px;
 }
 
-h2.alt {
-  color: #888;
-}
-
-h2.alt strong {
-  color: #666;
-}
-
 h3 {
   font-size: 1.5em;
 }
@@ -417,26 +357,7 @@ footer {
   margin: 2em 0 0 0;
 }
 
-strong,
-b {
-  font-weight: 300;
-  color: #666;
-}
-
 em,
 i {
   font-style: italic;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
-  -moz-transition: color 0.35s ease-in-out,
-    border-bottom-color 0.35s ease-in-out;
-  -webkit-transition: color 0.35s ease-in-out,
-    border-bottom-color 0.35s ease-in-out;
-  -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-  transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-  outline: 0;
 }
